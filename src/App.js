@@ -15,7 +15,7 @@ function App() {
  
 
   return (
-    <div className="w-full h-full bg-richblack-900 flex flex-col">
+    <div className="w-screen h-screen bg-richblack-900 flex flex-col overflow-y-auto">
       <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
 
       <Routes>
